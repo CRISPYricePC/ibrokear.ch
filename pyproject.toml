@@ -2,7 +2,7 @@
 name = "ibrokear.ch"
 version = "0.1.0"
 description = ""
-authors = ["Ben Mitchell <sc19b2m@leeds.ac.uk>"]
+authors = ["Ben Mitchell <bjosephmitchell@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
