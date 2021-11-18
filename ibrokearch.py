@@ -21,7 +21,7 @@ def get_tenor_gifs(search_term: str) -> list[str]:
     r = requests.get(
         f"{API_URL}/search?q={search_term}&key={API_KEY}&limit=50")
     results = r.json()["results"]
-    return [result["media"][0]["gif"]["url"] for result in results]
+    return [result["media"][0]["mediumgif"]["url"] for result in results]
 
 
 @app.route("/")
