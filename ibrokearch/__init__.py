@@ -38,8 +38,9 @@ def pull_tenor_gif(url: str) -> BytesIO:
 
 @app.route("/")
 def skill_issue():
-    file = pull_tenor_gif(random.choice(get_tenor_gifs("skill issue")))
-    return send_file(file, mimetype="image/gif")
+    # file = pull_tenor_gif(random.choice(get_tenor_gifs("skill issue")))
+    # return send_file(file, mimetype="image/gif")
+    return """"""
 
 
 if (__name__ == "__main__"):
